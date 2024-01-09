@@ -44,7 +44,7 @@ SCRIPT_DEVSHOP_VERSION_REF="${LOAD_SCRIPT_DEVSHOP_VERSION_REF}"
 # Default to 1.x if $SCRIPT_DEVSHOP_VERSION is empty.
 # Used as the `devshop_version` ansible variable, which will change the checked out version.
 DEVSHOP_VERSION="${SCRIPT_DEVSHOP_VERSION_REF}"
-DEVSHOP_SOURCE="${LOAD_DEVSHOP_SOURCE:-http://github.com/opendevshop/devshop.git}"
+DEVSHOP_SOURCE="${LOAD_DEVSHOP_SOURCE:-https://github.com/UK-CAFE/devshop.git}"
 
 # Version of Ansible to install
 ANSIBLE_VERSION=${ANSIBLE_VERSION:-"2.9"}
